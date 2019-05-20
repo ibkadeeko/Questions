@@ -195,16 +195,6 @@ header .toggle-nav {
 	border-color: rgb(68, 160, 141);
 }
 
-.btn-warning {
-	background: #f0ad4e;
-	border-color: #f0ad4e;
-}
-
-.btn-danger {
-	background: #d9534f;
-	border-color: #d9534f;
-}
-
 .btn-green:hover,
 .btn-green:active {
 	background: #4cbcec;
@@ -228,6 +218,150 @@ header .toggle-nav {
 .questions_description {
   font-size: 1.6rem;
 }
+
+/******** FORMS ***********/
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 50rem;
+  padding: 3.2rem 0 0;
+  margin: auto;
+}
+
+.login-page .form {
+  background: #FFFFFF;
+  max-height: 52rem;
+  overflow: hidden;
+  width: 100%;
+  padding: 4rem;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  margin: 3.2rem auto;
+}
+
+.form input {
+  background: #f2f2f2;
+  border: 0;
+  box-sizing: border-box;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  outline: 0;
+  margin: 0 0 1.6rem;
+  padding: 1.6rem;
+  width: 100%;
+}
+
+.form input:read-only,
+.form textarea:read-only {
+  background: white;
+  font-size: 1.6rem;
+}
+
+.form textarea {
+  background: #f2f2f2;
+  border: 0;
+  box-sizing: border-box;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  outline: 0;
+  margin: 0 0 1.6rem;
+  padding: 1.6rem;
+  width: 100%;
+  resize: none;
+}
+
+.form button {
+  background: #00A0E5;
+  border: 0;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  margin: 0 0 1.6rem;
+  outline: 0;
+  padding: 1.6rem;
+  text-transform: uppercase;
+  transition: all 0.3 ease;
+  width: 100%;
+}
+
+.form button:hover,.form button:active,.form button:focus {
+  background: #4cbcec;
+}
+
+.form .message {
+  margin: 0 0 1.6rem;
+  color: #b3b3b3;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.form .offset {
+  color: #b3b3b3;
+  font-size: 1.2rem;
+  text-align: left;
+  margin: 0 0 1.6rem;
+}
+
+.form .message a {
+  color: #00A0E5;
+}
+
+.form .message a.grey {
+  color: #b3b3b3;
+}
+
+.login-page form {
+  max-height: 52rem;
+  opacity: 1;
+  overflow: hidden;
+  transition: all 600ms 300ms ease-in-out;
+}
+
+form h2 {
+  color: black;
+  font-size: 2.4rem;
+  font-weight: normal;
+  margin-bottom: 1.6rem;
+}
+
+form.closed {
+  opacity: 0;
+  max-height: 0px;
+}
+
+.form-container {
+  max-width: 100rem;
+  margin: auto;
+}
+
+form .form-group label {
+  color: black;
+  display: block;
+  font-size: 1.6rem;
+  line-height: 2;
+  text-align: left;
+  text-transform: capitalize;
+  white-space: nowrap;
+  width: 30%;
+}
+
+form .form-group div {
+  width: 100%;
+  margin: 0 0 1rem;
+}
+
+form .form-group div>input {
+  margin: 0 0 0.6rem;
+}
+/* ======================== */
+
 
 
 /************ FOOTER *******************/
