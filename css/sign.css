@@ -11,7 +11,7 @@ body{
    rgba(0,0,0, 100)
  ),url("../img/sign.jpg") no-repeat center/cover;
   width: 100vh;
-  height: 100vh;
+  height: 150vh;
   color: white;
    overflow-x: hidden;
    width: 100%;
@@ -28,7 +28,7 @@ body{
   margin-bottom: 20px;
   border-radius:5px;
   text-align:center;
-  background-color: rgb(196, 223, 247)
+  background-color: white;
  }
  #cont input{
   width: 50vh;
@@ -50,6 +50,9 @@ body{
 }
 #down a{
  color: green;
+}
+b{
+ color: #00A0E5
 }
 @media(max-width:769px){
  #cont input{
